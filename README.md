@@ -1,4 +1,4 @@
-# 🏦 Banco Digital em Portugol  
+# 🏦 Banco Digital (Portugol Web Studio) 
 
 Este projeto foi desenvolvido em **Portugol Studio** com o objetivo de praticar **conceitos de lógica de programação** por meio da simulação de um **sistema bancário digital**.  
 
