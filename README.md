@@ -24,7 +24,7 @@ O programa:
 - ✅ Navegação recursiva entre as funcionalidades
 ---
 ## 📂 Arquivo
-- `banco_vagabundo.por` → Código-fonte escrito em Portugol Web Studio.
+- `banco_BV.por` → Código-fonte escrito em Portugol Web Studio.
 ---
 ## ▶️ Como Executar
 1. Acesse o [Portugol Web Studio](https://portugol.dev/).
