@@ -29,7 +29,7 @@ O programa:
 ## ▶️ Como Executar
 1. Acesse o [Portugol Web Studio](https://portugol.dev/).
 2. Crie um novo projeto.
-3. Copie e cole o código de `banco_vagabundo.por`.
+3. Copie e cole o código de `banco_BV.por`.
 4. Clique em **Executar** para rodar o programa.
 ---
 ## 🖥️ Exemplo de Execução
