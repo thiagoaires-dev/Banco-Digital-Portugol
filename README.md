@@ -1,40 +1,85 @@
-# 🏦 Banco Digital (Portugol Web Studio) 
+# 🏦 Sistema Bancário Simples (Portugol Web Studio)
 
-Este projeto foi desenvolvido em **Portugol Studio** com o objetivo de praticar **conceitos de lógica de programação** por meio da simulação de um **sistema bancário digital**.  
+## 📖 Sobre
 
-O programa apresenta um menu interativo que permite ao usuário realizar operações financeiras básicas, explorando estruturas fundamentais da programação.
+Este projeto é um **Sistema Bancário Simples** desenvolvido em **Portugol Web Studio**.  
+Ele demonstra o uso de **estruturas condicionais, bibliotecas externas, validação de entradas e funções recursivas**.
 
+O programa:
+- Gera um saldo inicial aleatório entre R$ 44 e R$ 12.000.
+- Permite visualizar o saldo atual da conta.
+- Realiza operações de depósito e saque com validação.
+- Oferece conversão de moeda para Dólar, Euro e Libra.
+- Valida operações inválidas e valores insuficientes.
+- Utiliza menu interativo com navegação recursiva.
 ---
-
-## 📋 Funcionalidades  
-- **[1] Ver Saldo** → exibe o saldo inicial (gerado aleatoriamente com a biblioteca `Util`).  
-- **[2] Depositar** → adiciona valores ao saldo existente.  
-- **[3] Sacar** → permite retirar valores, com validação contra saldo insuficiente.  
-- **[4] Conversão de Moedas** → converte valores em:  
-  - Dólar (USD) – cotação fixa de R$5,00  
-  - Euro (EUR) – cotação fixa de R$6,00  
-  - Libra (GBP) – cotação fixa de R$7,00  
-- **[5] Sair** → encerra o sistema.  
-
+## 🚀 Funcionalidades
+- ✅ Geração de saldo aleatório (`biblioteca Util`)
+- ✅ Menu interativo com 5 opções
+- ✅ Visualização de saldo atual
+- ✅ Sistema de depósito com atualização de saldo
+- ✅ Sistema de saque com validação de saldo suficiente
+- ✅ Conversão de moedas (USD, EUR, GBP) com cotações fixas
+- ✅ Validação de entradas e tratamento de erros
+- ✅ Navegação recursiva entre as funcionalidades
 ---
-
-## ⚙️ Estruturas Utilizadas  
-- **Biblioteca externa (`Util`)** → para gerar saldo inicial aleatório com `sorteia`.  
-- **Variáveis** → controle de saldo, valores de saque, depósito e conversões.  
-- **Entrada e saída de dados** → interação com o usuário através de `leia` e `escreva`.  
-- **Estruturas condicionais (SE / SENÃO)** → tratamento das opções do menu e validação de saldo.  
-- **Estruturas de repetição (recursividade via `inicio()`)** → mantém o programa em execução até o usuário escolher sair.  
-- **Operadores matemáticos** → aplicados em depósitos, saques e conversões de moedas.  
-
+## 📂 Arquivo
+- `banco_vagabundo.por` → Código-fonte escrito em Portugol Web Studio.
 ---
-
-## 🎯 Objetivo de Aprendizado  
-Este projeto foi desenvolvido para reforçar:  
-- Estruturação de menus interativos;  
-- Tomada de decisão com condicionais;  
-- Controle de fluxo e repetição;  
-- Aplicação de cálculos matemáticos em cenários práticos.  
-
+## ▶️ Como Executar
+1. Acesse o [Portugol Web Studio](https://portugol.dev/).
+2. Crie um novo projeto.
+3. Copie e cole o código de `banco_vagabundo.por`.
+4. Clique em **Executar** para rodar o programa.
 ---
+## 🖥️ Exemplo de Execução
+### Menu Principal
+```
+=========== B.V. BANCO VAGABUNDO ===========
+[1] VER SALDO
+[2] DEPOSITAR
+[3] SACAR
+[4] CONVERSÃO
+[5] SAIR
+OPÇÃO SELECIONADA: 1
+```
+---
+### Exemplo de Saque
+```
+==========================================
+SALDO DISPONIVEL: 5430
+VALOR A SACAR:
+R$ 1000
+=====VALOR RETIRADO=====
 
-✍️ Desenvolvido como parte do aprendizado em lógica de programação.  
+SEU NOVO SALDO É DE: R$4430
+```
+---
+### Exemplo de Conversão (Dólar)
+```
+========== DÓLAR ==========
+SALDO DISPONIVEL:R$ 5430
+DEFINA O VALOR A SER CONVERTIDO:R$500
+
+VOCÊ ACABA DE CONVERTER R$500 EM DÓLAR, VALOR RECEBIDO: $100
+```
+---
+## 🛠️ Tecnologias
+- Linguagem: **Portugol (Portugol Web Studio)**  
+- Biblioteca: **Util (para geração de números aleatórios)**
+- Conceitos: **Condicionais, Recursão, Validação de Dados**
+---
+## 💱 Cotações Utilizadas
+- **Dólar (USD)**: R$ 5,00
+- **Euro (EUR)**: R$ 6,00  
+- **Libra (GBP)**: R$ 7,00
+---
+## 📌 Possíveis Melhorias
+- Implementar persistência de dados entre execuções.
+- Adicionar histórico de transações realizadas.
+- Integrar cotações de moedas em tempo real via API.
+- Implementar sistema de autenticação com senha.
+- Adicionar mais opções de moedas para conversão.
+- Melhorar a formatação de valores monetários.
+---
+👨‍💻 Desenvolvido por **João Victor Paschoal**
