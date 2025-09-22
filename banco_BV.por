@@ -14,7 +14,7 @@ programa {
 
     //DEFINIÇÃO DE OPÇÕES PARA MENU DE INÍCIO DO "BANCO"
     escreva("\n")
-    escreva("=========== B.V. BANCO VAGABUNDO ===========\n")
+    escreva("=========== B.V. BANCO ===========\n")
     escreva("[1] VER SALDO\n")
     escreva("[2] DEPOSITAR\n")
     escreva("[3] SACAR\n")
