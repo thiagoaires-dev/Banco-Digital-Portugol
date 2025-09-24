@@ -81,5 +81,3 @@ VOCÊ ACABA DE CONVERTER R$500 EM DÓLAR, VALOR RECEBIDO: $100
 - Implementar sistema de autenticação com senha.
 - Adicionar mais opções de moedas para conversão.
 - Melhorar a formatação de valores monetários.
----
-👨‍💻 Desenvolvido por **João Victor Paschoal**
