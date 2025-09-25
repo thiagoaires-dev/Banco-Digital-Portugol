@@ -24,18 +24,18 @@ O programa:
 - ✅ Navegação recursiva entre as funcionalidades
 ---
 ## 📂 Arquivo
-- `banco_BV.por` → Código-fonte escrito em Portugol Web Studio.
+- `banco_BD.por` → Código-fonte escrito em Portugol Web Studio.
 ---
 ## ▶️ Como Executar
 1. Acesse o [Portugol Web Studio](https://portugol.dev/).
 2. Crie um novo projeto.
-3. Copie e cole o código de `banco_BV.por`.
+3. Copie e cole o código de `banco_BD.por`.
 4. Clique em **Executar** para rodar o programa.
 ---
 ## 🖥️ Exemplo de Execução
 ### Menu Principal
 ```
-=========== B.V. BANCO VAGABUNDO ===========
+=========== B.D. BANCO DIGITALIS ===========
 [1] VER SALDO
 [2] DEPOSITAR
 [3] SACAR
